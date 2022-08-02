@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Orbinate",sans-serif;
+}
+
+body{
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+nav{
+    position: relative;
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.button-group{
+    display: flex;
+}
+.brand-logo{
+    height: 55px;
+}
+.logo{
+    height:55px;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    position: relative;
+    list-style-type: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+.first-child{
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+.list-item:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+
+}
+.button-group .search-icon{
+    position: relative;
+    top: 5px;
+    right: 10px;
+    height: 30px;
+
+}
+.button-group .nav-button{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px 50px 5px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+.hero-container{
+    position: relative;
+    display: flex;
+}
+.hero-container-left{
+    position: absolute;
+}
+.person{
+    position: relative;
+}
+
+
+
+.square{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 170px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.star,.globe{
+    position: absolute;
+}
+.star{
+    top: 18px;
+    right: 110px;
+}
+.globe{
+    top: 10px;
+    left: 550px;
+}
+.star-pattern{
+    width: 35px;
+}
+.globe-pattern{
+    width: 35px;
+}
+.hero-heading{
+    position: relative;
+    font-size: 55px;
+    bottom: 40px;
+    left: 90px;
+}
+.hero-description{
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #201f1f;
+    text-align: center;
+    line-height: 1.3;
+    bottom: 10px;
+    left: 90px;
+    
+}
+.btn{
+    position: relative;
+    top: 80px;
+    margin: 5px;
+    
+}
+.button-email{
+    position: relative;
+    left: 70px;
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color:#201f1f;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.button-join{
+    position: relative;
+    left: 70px;
+    font-size: 15px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color:#201f1f;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.contact-heading{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    top: 5px;
+    left: 90px;
+}
+.icons{
+    position: relative;
+    top: 105px;
+}
+.facebook{
+    position: relative;
+    left: 50px;
+}
+.massenger{
+    position: relative;
+    left: 70px;
+}
+.instagram{
+    position: relative;
+    left: 90px;
+}
+.whatsapp{
+    position: relative;
+    left: 110px;
+}
+
+
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.brand-logo{
+    display: flex;
+    height: 25px;
+    margin: auto;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;;
+}
+.list-item{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    padding: 2px 30px;
+    border-radius: 2px;
+    margin:20px;
+    cursor: pointer;
+}
+.button-group{
+    display: flex;
+    margin-top: 40px;
+    height: 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.hero-container{
+    display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex: 0.5;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    margin: 120px 10px;
+
+}
+section>div{
+    display: flex;
+
+
+}
+section>div>div{
+    display: flex;
+    overflow: hidden;
+}
+section>div>div>img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80%;
+    width: 35%;
+}
+.hero-container-right{
+    display: flex;
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.star{
+    position: absolute;
+    right: 170px;
+    top: 150px;
+
+}
+.globe{
+    position: absolute;
+    right: 560px;
+    top: 120px;
+} */
